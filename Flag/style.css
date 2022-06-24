@@ -1,0 +1,24 @@
+.container{
+    background-color: blue;
+    height: 600px;
+    width: 1200px;
+    display: flex;
+
+}
+.midStripe{
+    background-color: red;
+    height: 50px;
+    width: 1130px;
+    
+    
+    
+    
+}
+.vertical{
+    background-color: red;
+    height: 900px;
+    width: 50px;
+    
+    
+}
+

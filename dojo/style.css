@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    outline: 1px solid red; 
+
+}
+.nav{
+    justify-content: space-evenly;
+    padding: 2% 10%;
+    
+    
+    
+    
+    
+}
+.nav-title{
+    align-items: center;
+    justify-content: space-around;
+    background: gray;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.login{
+    background-color: skyblue;
+    border: 3px black solid;
+    box-shadow: 5px 5px 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+}   
+input{
+    border: 3px black solid;
+}
+
+.topleft{
+    border: 4px black solid;
+    margin: 5% 10%;
+    display: flex;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.topRight{
+    background-color: white;
+    border: 3px black solid;
+    margin: 5% 10%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.bottomLeft{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+    border: 3px black solid;
+    padding: 10px;
+    
+    
+    
+    
+}    
+.btn{
+    background-color: yellow;
+    box-shadow: 5px 5px 5px;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btngreen{
+    background-color: green;
+    box-shadow: 5px 5px 5px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.movingRight{
+    justify-content:right;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph2{
+    display: flex;
+    flex-direction: column;
+}
+para2{
+    display: flex;
+    flex-direction: ;
+}

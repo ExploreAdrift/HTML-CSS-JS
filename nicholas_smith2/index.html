@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- TOP NAVBAR -->
+    <div class="navBar flex justifyEven">
+        <h1>Gaming <span class="purple">Dojo</span></h1>
+        <div class="rightIcons  flex flexdirRow">
+            <select name="currency">
+                <option value="Euro">Euro &#8364;</option>
+            </select>
+            <a href="#" class=""><img src="images/cart-light.png" height="35" width="35" alt="cart" class="cart">0</a>
+            <a href="#"><img src="images/search-light.png" height="35" width="35" alt="search"></a>
+        </div>
+    </div>
+    <!-- MAIN -->
+    <div class="main">
+        <!-- TOP ROW -->
+        <div class="row1">
+
+            <div class="topmiddleBox">
+                <h3 class="highlights">highlights</h3>
+                <img src="images/chevron-left.png" alt="left" width="25" height="35" class="leftChev" onclick="left">
+                <img src="images/stonepunk.png" width="500" height="200" alt="stonepunk" class="comingSoon">
+                <img src="images/chevron-left.png" alt="left" width="25" height="35" class="rightChev"
+                    onclick="rightChev">
+
+            </div>
+        </div>
+
+        <!-- BOTTOM ROW -->
+
+        <!-- CAFE NEKO -->
+        <div class="mainRow flex justifyEven alignCenter">
+            <div class="gold whiteBack">
+                <div class="topBox">
+                    <img src="images/cafe-neko.png" width="200" height="75" alt="cafe-neko">
+                    <p class="cafeNeko"> Cafe Neko: Gold Edition</p>
+                    <img src="images/windows.png" class="icons" alt="windows">
+                    <img src="images/apple.png" class="icons" alt="apple">
+                    <div class="bottomMoney flex justifyEven">
+                        <p class="purpleBack">-20%</p>
+                        <p>&#8364; 14.98 <br> &#8364; 10.49</p>
+                        <p class="greenBack">Buy</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- PIXEL NINJAS -->
+            <div class="pixelNinja whiteBack">
+                <div class="topBox">
+                    <img src="images/pixel-ninjas-2.png" width="200" height="75" alt="">
+                    <p class="pixelNinja"> Pixel Ninjas 2</p>
+                    <img src="images/windows.png" class="icons" alt="windows">
+                    <img src="images/apple.png" class="icons" alt="apple">
+                    <div class="bottomMoney flex justifyEven">
+                        <p class="purpleBack">-10%</p>
+                        <p>&#8364; 8.19 <br> &#8364; 7.39</p>
+                        <p class="greenBack">Buy</p>
+                    </div>
+                </div>
+            </div>
+            <!-- STONEPUNK -->
+            <div class="stonePunk whiteBack">
+                <div class="topBox2">
+                    <img src="images/stonepunk.png" width="200" height="75" alt="stone">
+
+                    <p class="stonePunkbce"> Stonepunk 10000 BCE</p>
+                    <img src="images/windows.png" class="icons" alt="windows">
+                    <img src="images/apple.png" class="icons" alt="apple">
+                    <img src="images/linux.png" class="icons" onclick="alert('This game is not supported on Linux')"
+                        alt="linux">
+                    <div class="bottomMoney2 flex justifyEven">
+                        <p class="purpleBack justCenter alignCenter">new</p>
+                        <p>&#8364; 19.99</p>
+                        <p class="greenBack">Buy</p>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

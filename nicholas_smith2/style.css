@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* outline: 1px red solid; */
+    font-family: 'Balsamiq Sans', cursive;
+    
+
+}
+.flex{
+    display: flex;
+}
+.alignCenter{
+    align-items: center;
+}
+.justBetween{
+    justify-content: space-between;
+}
+.justAround{
+    justify-content: space-around;
+}
+.justifyEven{
+    justify-content: space-evenly;
+}
+.justCenter{
+    justify-content: center;
+}
+.navBar{
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin-bottom: 50px;
+    
+    
+}
+.purple{
+    color: purple;
+}
+.flexdirRow{
+    flex-direction: row;
+}
+.topBox{
+    border: 3px black solid;
+    justify-content: flex-start;
+}
+.whiteBack{
+    background-color: white;
+}
+.mainRow{
+   margin-top: 50px;
+   padding: 15px;
+}
+.icons{
+    height: 25px;
+    width: 25px;
+    padding-bottom: 20px;
+    
+}
+.rightIcons{
+    padding: 5px;
+    margin: 10px;
+    justify-content: space-around;
+    gap: 25px;
+    
+}
+.rightChev{
+    transform: scaleX(-1);
+}
+.comingSoon{
+    padding: 25px;
+    
+    
+}
+.a{
+    text-decoration: none;
+    font-size: 12pt;
+}
+.purpleBack{
+    background-color: purple;
+    color: white;
+}
+.greenBack{
+    background-color: lightgreen;
+    color: white;
+}
+
+.rowDown{
+    padding-bottom: 20px;
+}
+.highlights{
+    text-align: left;
+    margin-left: 75px;
+}
+.bottomMoney2{
+    padding-bottom: 10px;
+}
+.row1{
+    text-align: center;
+    border-bottom: 10px grey dashed;
+}
+.topBox2{
+    border: 3px black solid;
+    justify-content: flex-start;
+    height: 190px;
+    width: 190px;
+}
+.topmiddleBox{
+    text-align: center;
+    background-color: lightgray;
+}
+.currency{
+    height: 10px;
+    height: 10px;
+}
+.main{
+    background-color: lightgray;
+}
+

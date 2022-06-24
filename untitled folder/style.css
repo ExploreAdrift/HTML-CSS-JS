@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* outline: 1px red solid; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.headTop{
+    padding: 15% 5%;
+    justify-content: space-between;
+}
+
+.headBottom{
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+    
+}
+.col{
+    
+    flex: 1;
+}
+.flex-direction-col{
+    flex-direction: column;
+}
+.alignCenter{
+    text-align: center;
+}
+.justifyBetween{
+    justify-content: space-between;
+}
+body{
+    background-color: lightgray;
+}
+.backgroundWhite{
+    background-color: white;
+    border-radius: 5px;
+}
+.col2{
+    padding: 10px;
+    flex: 3;
+}
+.subscribe{
+    display: block;
+    width: 100%;
+}
+.sports{
+    text-decoration: none;
+    color: white;
+}
+.dsnn{
+    background-color: red;
+    font-style: italic;
+    padding:20px;
+    margin-left: 25px;
+    transform: skewX(-15deg);
+}
+.icons{
+    height: 20px;
+    
+    margin-right: 15px;
+    flex-direction: row;
+}

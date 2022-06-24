@@ -1,0 +1,87 @@
+*{
+    padding: 10px;
+    /* border: 1px red solid; */
+    
+}
+.page{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+}
+.profile{
+    display: flex;
+
+    
+}
+.like{
+    display: flex;
+}
+.headshot{
+    border: 3px black solid;
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.mcontainer{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.header{
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+}
+.card{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.smallcon{
+    border: 3px black solid;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.rightcon{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
+.smallcon p::after{
+content: " like(s)"
+}
+.button,.likes,.likes2,.likes1{
+    background-color: yellow;
+    box-shadow: 5px 5px 5px;
+    width: 125px;
+    height: 40px;
+    
+    
+}
+.update{
+    font-size: 35px;
+}
+h2{
+    font-size: 50px;
+}

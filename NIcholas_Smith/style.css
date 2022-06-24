@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.nav{
+    display: flex;
+
+}
+.game1,.game2,.game3,.game4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.scoresTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.scoresBottom{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.navbarUpper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+.dsnn ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.dsnn{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    
+}
+.main{
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    
+    
+}
+.rightCon{
+    display: flex;
+    border-radius: 5%;
+    background-color: white;
+    
+    
+}
+
+.logos{
+    flex-direction: row;
+    display: flex;
+    border-bottom: 3px black solid;
+}
+.dnssLeft{
+    border-radius: 5%;
+    background-color: white;
+}
+.scoring{
+    justify-content: flex-end;
+}
+.bottom{
+    display: flex;
+}
+.subscribe{
+    background-color: white;
+    border-radius: 5%;
+    padding: 10px;
+}
+.dsnnLeft{
+    background-color: white;
+    border-radius: 5%;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.topStory{
+    background-color: white;
+    border-radius: 5%;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.subscribebtn{
+    background-color: yellow ;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px;
+}
+.signin{
+    background-color: skyblue ;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    box-shadow: 5px 5px 5px;
+}
+.signout{
+    background-color: lightgrey ;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    box-shadow: 5px 5px 5px;
+}
+.middleS{
+    justify-content: center;
+    align-items: center;
+    margin-top:  25%; 
+    padding: 15px;
+}
+.san{
+    justify-content: center;
+    align-items:center ;
+}
+.game1{
+    margin-right: 30px;
+    display: flex;
+}
+.game2{
+    margin-right: 50px;
+}
+.game3{
+    margin-right: 60px;
+}

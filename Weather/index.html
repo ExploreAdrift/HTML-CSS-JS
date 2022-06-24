@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherDojo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- HEADER -->
+<header class="dojoweather">
+
+    <!-- NAVBAR -->
+
+    <nav class="navBar">
+        <h1>DojoWeather</h1>
+        <div class="navLinks">
+            <p onclick="alert('Loading Weather Report')">Burbank</p>
+            <p onclick="alert('Loading Weather Report')">Chicago</p>
+            <p onclick="alert('Loading Weather Report')">Dallas</p>
+        </div>
+    </nav>
+    <div class="belownav">
+        <h1 class="sanJose">San Jose</h1>
+        <div class="temp">
+            <label class="weather">Show temperature in</label>
+            <select name="dorc">
+                <option>C</option>
+                <option>F</option>
+
+            </select>
+        </div>
+    </div>
+</header>
+
+<body>
+    <!-- MAIN CONTAINER -->
+    <main class="lContainer">
+        <div class="today">
+            <h2>Today</h2>
+            <div class="todayContent">
+                <img src="assets/some_rain.png" alt="rain">
+                <h3>some rain</h3>
+                <div class="tempBox">
+                    <div class="leftTemp">
+                        <p><span>17</span></p>
+                    </div>
+                    <div class="rightTemp">
+                        <p>27</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="week"></div>
+        <div class="tomorrow">
+            <h2>Tomorrow</h2>
+            <img src="assets/some_sun.png" alt="sun">
+            <h3>some sun</h3>
+            <div class="tempBox">
+                <div class="leftTemp">
+                    <p><span>17</span></p>
+                </div>
+                <div class="rightTemp">
+                    <p>27</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="friday">
+            <h2>Friday</h2>
+            <img src="assets/some_clouds.png" alt="cloudy">
+            <h3>some clouds</h3>
+            <div class="tempBox">
+                <div class="leftTemp">
+                    <p><span>17</span></p>
+                </div>
+                <div class="rightTemp">
+                    <p>27</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="saturday">
+            <h2> Saturday</h2>
+            <img src="assets/some_sun.png" alt="sun">
+            <h3>some sun</h3>
+            <div class="tempBox">
+                <div class="leftTemp">
+                    <p><span>17</span></p>
+                </div>
+                <div class="rightTemp">
+                    <p>27</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- COOKIE -->
+
+    <div class="cookie">
+        <div class="leftcookie">
+            <div class="leftlogo">
+                <img src="assets/cookie.png" alt="cookie">
+            </div>
+
+            <div class="middleP">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize <br> content and ads, to provide
+                    social
+                    media
+                    features and to <br> analyze out traffic. <a href="#">Read more..</a></p>
+            </div>
+            <div class="button">
+                <button onclick="hide(this)" class="subscribe">Add Subscribe</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
